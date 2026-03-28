@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, ConfusionMatrixDis
 import os
 
 
-df = pd.read_csv('data\sdss_sample.csv')
+df = pd.read_csv('data/sdss_sample.csv')
 df.head()
 
 print("Valores nulos antes de la limpieza:")
